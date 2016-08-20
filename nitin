@@ -1,0 +1,2 @@
+export ANDROID_HOME=/Users/PRAVIN/Documents/Softwares/android-sdk-macosx/
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platforms-tools
