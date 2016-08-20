@@ -1,4 +1,5 @@
 /**
+ * Author - Nitin Nimbalkar
  * Sample React Native App
  * https://github.com/facebook/react-native
  * @flow
@@ -8,8 +9,12 @@ import React, { Component} from 'react';
 
 
 var WelcomeView = require('./src/js/Subreddit');
+
+
 var FirstTouchScene = require('./src/js/FirstTouchScene');
 var appStyle = require('./src/js/Style');
+
+
 
 
 import {
@@ -32,9 +37,9 @@ class reddit extends Component {
 
   render() {
     return (
-          <NavigatorIOS 
+          <NavigatorIOS
             ref="nav"
-            style = {appStyle.navigatorios} 
+            style = {appStyle.navigatorios}
             initialRoute= {{
               component: WelcomeView,
               title: "Navigation demo",
